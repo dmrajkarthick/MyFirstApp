@@ -44,6 +44,7 @@ public class DBTesting extends AppCompatActivity{
         String s = "";
         for(int i=0; i<jsonArray.length();i++)
         {
+            String test ="";
             JSONObject json = null;
             try{
                 json = jsonArray.getJSONObject(i);
