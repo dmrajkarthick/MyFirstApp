@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_weight="30">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:text="Email Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail"
+        android:layout_weight="1" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Email Address"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_weight="1" />
+
+        <TextView
+        android:text="Introduction"
+        android:layout_width="match_parent"
+        android:id="@+id/tvIntro"
+        android:layout_weight="1.00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Introduciton"
+        android:ems="10"
+        android:id="@+id/etIntro"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Person's Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPersonName"
+        android:layout_weight="1.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Person's Name"
+        android:ems="10"
+        android:id="@+id/etPersonName"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Stupid Things"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStupidThings"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Stupid Things"
+        android:ems="10"
+        android:id="@+id/etStupidThings"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Hateful Action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHatefulAction"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Hateful Action"
+        android:ems="10"
+        android:id="@+id/etHatefulAction"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="outro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOutRo"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="outro"
+        android:ems="10"
+        android:id="@+id/etOutRo"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+    </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="40">
+
+            <Button
+                android:text="Send Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bsendEmail" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="30">
+
+        <TextClock
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock2"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>
