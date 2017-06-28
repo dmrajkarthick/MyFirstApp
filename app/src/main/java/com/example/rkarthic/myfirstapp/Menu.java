@@ -18,7 +18,7 @@ import android.widget.TextView;
 public class Menu extends ListActivity
 {
 
-    String[] classes = {"MainActivity", "TextPlay" , "Email", "Camera", "Data", "example1", "example2"};
+    String[] classes = {"MainActivity", "TextPlay" , "Email", "Camera", "Data", "DBTesting", "example2"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
