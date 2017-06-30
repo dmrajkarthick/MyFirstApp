@@ -8,14 +8,20 @@ import android.util.Log;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
     int counter1, counter2;
     Button add, sub;
     TextView display1, display2;
+
 
 
     @Override
@@ -66,9 +72,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(p);
                 break;
             case R.id.menuSearch:
-                SearchView searchView123 = (SearchView)findViewById(R.id.menuSearch);
+                /*
+                have a look at this feature
+                Log.i("HI","Hello");
+                android.widget.SearchView searchView = (android.widget.SearchView)item.getActionView();
 
-                searchView123.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                searchView.setOnQueryTextListener(new android.widget.SearchView.OnQueryTextListener() {
                     @Override
                     public boolean onQueryTextSubmit(String query) {
                         return false;
@@ -76,10 +85,12 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public boolean onQueryTextChange(String newText) {
-                        Log.i("Summa", "Summa");
+
+
                         return false;
                     }
                 });
+*/
                 break;
             case R.id.exit:
                 finish();
@@ -87,4 +98,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+
+
+
 }

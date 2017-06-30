@@ -33,7 +33,7 @@ public class Menu extends ListActivity
         String summa = classes[position];
         try {
             Class ourClass = Class.forName("com.example.rkarthic.myfirstapp." + summa);
-            Intent ourIntent = new Intent(Menu.this, ourClass);
+            Intent ourIntent = new Intent(Menu.this,    ourClass);
             startActivity(ourIntent);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
