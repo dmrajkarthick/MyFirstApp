@@ -2,5 +2,26 @@
     <string name="app_name">My First App</string>
     <string name="add_one">Karthi </string>
     <string name="subtract_one">Gnana</string>
+    <string-array name="array_country">
+        <item>Padma</item>
+        <item>Raj</item>
+        <item>Gnana</item>
+        <item>ajay</item>
+        <item>raj kiran</item>
+        <item>jeeva</item>
+        <item>gnane</item>
+        <item>surya</item>
+        <item>thanu</item>
+        <item>anup</item>
+        <item>aravind</item>
+        <item>sathish</item>
+        <item>srinu</item>
+        <item>madhavan</item>
+        <item>rajini</item>
+        <item>vadivelu</item>
+        <item>vijay</item>
+        <item>ajith</item>
+
+    </string-array>
 
 </resources>

@@ -3,6 +3,8 @@ package com.example.rkarthic.myfirstapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SearchView;
+import android.util.Log;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -62,6 +64,22 @@ public class MainActivity extends AppCompatActivity {
             case R.id.preferences:
                 Intent p = new Intent("com.example.rkarthic.PREFS");
                 startActivity(p);
+                break;
+            case R.id.menuSearch:
+                SearchView searchView123 = (SearchView)findViewById(R.id.menuSearch);
+
+                searchView123.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                    @Override
+                    public boolean onQueryTextSubmit(String query) {
+                        return false;
+                    }
+
+                    @Override
+                    public boolean onQueryTextChange(String newText) {
+                        Log.i("Summa", "Summa");
+                        return false;
+                    }
+                });
                 break;
             case R.id.exit:
                 finish();

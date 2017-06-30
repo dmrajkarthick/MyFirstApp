@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:compat="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/menuSearch"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        ></item>
+
     <item
         android:title="About Us"
         android:id="@+id/aboutUs"
         android:numericShortcut="1"
-        compat:showAsAction="collapseActionView"
-        android:alphabeticShortcut="a"/>
+        app:showAsAction="collapseActionView"/>
 
     <item
         android:title="Preferences"
         android:id="@+id/preferences"
-        compat:showAsAction="collapseActionView"/>
+        app:showAsAction="collapseActionView"/>
+
+
 
     <item
         android:title="Exit"
