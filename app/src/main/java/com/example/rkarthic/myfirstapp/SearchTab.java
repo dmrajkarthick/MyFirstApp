@@ -22,7 +22,7 @@ public class SearchTab extends AppCompatActivity implements AdapterView.OnItemCl
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.search2);
+        setContentView(R.layout.search);
         ListView lv = (ListView)findViewById(R.id.listViewCountry);
         arrayCountry = new ArrayList<>();
         arrayCountry.addAll(Arrays.asList(getResources().getStringArray(R.array.array_country)));
@@ -75,6 +75,5 @@ public class SearchTab extends AppCompatActivity implements AdapterView.OnItemCl
         }
         Intent a = new Intent(SearchTab.this, c);
         startActivity(a);
-
     }
 }
