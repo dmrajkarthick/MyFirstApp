@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.rkarthic.R;
+
 /**
  * Created by rkarthic on 20-06-2017.
  */

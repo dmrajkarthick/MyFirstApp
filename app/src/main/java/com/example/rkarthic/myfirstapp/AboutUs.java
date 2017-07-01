@@ -3,6 +3,8 @@ package com.example.rkarthic.myfirstapp;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.example.rkarthic.R;
+
 /**
  * Created by rkarthic on 27-06-2017.
  */

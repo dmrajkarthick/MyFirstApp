@@ -1,6 +1,5 @@
 package com.example.rkarthic.myfirstapp;
 
-import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +9,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.rkarthic.R;
 
 /**
  * Created by rkarthic on 04-06-2017.

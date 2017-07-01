@@ -5,6 +5,8 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.rkarthic.R;
+
 /**
  * Created by rkarthic on 27-06-2017.
  */

@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import com.example.rkarthic.R;
+
 import java.io.IOException;
 import java.io.InputStream;
 

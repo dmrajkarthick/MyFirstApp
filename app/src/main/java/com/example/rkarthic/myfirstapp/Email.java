@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.rkarthic.R;
+
 /**
  * Created by rkarthic on 14-06-2017.
  */

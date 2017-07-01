@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.rkarthic.R;
+
 public class Splash extends AppCompatActivity {
 
     MediaPlayer ourSong;

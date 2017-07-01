@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.example.rkarthic.R;
+
 import java.util.Random;
 
 /**

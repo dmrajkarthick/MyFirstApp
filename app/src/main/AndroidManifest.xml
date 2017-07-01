@@ -1,97 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.rkarthic.myfirstapp">
+    package="com.example.rkarthic">
 
-    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity android:name=".myfirstapp.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".Menu" android:theme="@android:style/Theme.Black">
+        <activity android:name=".myfirstapp.MainActivity" />
+        <activity
+            android:name=".myfirstapp.Menu"
+            android:theme="@android:style/Theme.Black">
             <intent-filter>
                 <action android:name="com.example.rkarthic.MENU" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".TextPlay">
+        <activity android:name=".myfirstapp.TextPlay">
             <intent-filter>
                 <action android:name="com.example.rkarthic.TEXT" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Email"
+        <activity
+            android:name=".myfirstapp.Email"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="com.example.rkarthic.EMAIL" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Camera" android:screenOrientation="portrait">
+        <activity
+            android:name=".myfirstapp.Camera"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.example.rkarthic.CAMERA" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Data">
+        <activity android:name=".myfirstapp.Data">
             <intent-filter>
                 <action android:name="com.example.rkarthic.DATA" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".OpenedClass"
+        <activity
+            android:name=".myfirstapp.OpenedClass"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="com.example.rkarthic.OPENEDCLASS" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".AboutUs"
+        <activity
+            android:name=".myfirstapp.AboutUs"
             android:label="About Us"
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
                 <action android:name="com.example.rkarthic.ABOUT" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Prefs">
+        <activity android:name=".myfirstapp.Prefs">
             <intent-filter>
                 <action android:name="com.example.rkarthic.PREFS" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".DBTesting">
+        <activity android:name=".myfirstapp.DBTesting">
             <intent-filter>
                 <action android:name="com.example.rkarthic.DBTESTING" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".SearchTab">
+        <activity android:name=".myfirstapp.SearchTab">
             <intent-filter>
                 <action android:name="com.example.rkarthic.SEARCH" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".activity.MainActivity1">
+            <intent-filter>
+                <action android:name="com.example.rkarthic.MAINACTIVITY" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.example.rkarthic.activity.PrivacyPolicyActivity" />
+        <activity android:name="com.example.rkarthic.activity.AboutUsActivity"></activity>
+    </application>
 
 </manifest>
